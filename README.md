@@ -11,6 +11,7 @@ See [mim.farm.assessment.md](mim.farm.assessment.md) for requirements.
 ### setup
 
 1. Clone the repository
+2. Rename .env.example to .env
 2. Open in dev container
 3. Install required dependencies `composer install`
 4. Migrate & Seed `php artistan migrate --seed`
