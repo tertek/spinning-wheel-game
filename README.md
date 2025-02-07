@@ -12,9 +12,14 @@ See [mim.farm.assessment.md](mim.farm.assessment.md) for requirements.
 
 1. Clone the repository
 2. Rename .env.example to .env
-2. Open in dev container
-3. Install required dependencies `composer install`
-4. Migrate & Seed `php artistan migrate --seed`
+3. Ensure Sail can start:
+`docker run --rm --interactive --tty -v $(pwd):/app composer install`
+
+4. Run `vendor/bin/sail up -d` or open in dev container
+5. Install node_modules, `npm run build`
+5. Migrate & Seed `php artistan migrate --seed`
+
+In case there are permission issues, access sail with root-shell and run `cd .. && chown -R sail:sail html`
 
 ### usage
 
