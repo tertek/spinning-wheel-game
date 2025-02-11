@@ -5,10 +5,6 @@ use App\Models\BalanceTransaction;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Volt\Component;
 
-new class extends Component
-{
-
-}
 ?>
 <div class="flex flex-col">
     <div>
