@@ -4,8 +4,14 @@
 
 A simple spinning wheel game built with Laravel + Livewire uisng Sail.
 
-Check out the demo [here](http://134.122.83.159) (test@example.com, password)
+### demo
 
+Check out the demo [here](http://134.122.83.159).
+
+```bash
+Username: test@example.com
+Password: password
+```
 
 
 
